@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fade-in-down{
+    animation: fade-in-down 0.5s ease-in-out both;
+}
+
+@keyframes fade-in-down {
+    from{
+    transform: translateY(-2rem);
+    opacity: 0;
+    }
+    to{
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+}
